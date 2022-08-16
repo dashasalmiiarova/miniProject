@@ -1,0 +1,74 @@
+.container {
+  width: 93%;
+  margin: 23px auto 0;
+}
+
+.resultsCount {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+table {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: inherit;
+}
+
+.listRow td {
+  border-bottom: 1px solid #e0ded3;
+  padding: 17px 0;
+}
+
+.tableRow td,
+.tableRow th {
+  border-bottom: 1px solid #e0ded3;
+  padding: 7px 0;
+}
+
+.tableRow {
+  color: #8d988e;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.065em;
+  text-align: justify;
+}
+
+.listRow {
+  padding: 17px 0px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.listRow td:last-child {
+  width: 42%;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.light {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chevron {
+  stroke: #2c402e;
+}
+
+.link {
+  text-align: right;
+}
+
+a {
+  color: #027a3b;
+}
+
+.icon {
+  margin-left: 11px;
+}
+
+.errorMessage {
+  margin: 30px 10px;
+  font-weight: 500;
+}

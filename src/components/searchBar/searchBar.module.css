@@ -1,0 +1,31 @@
+.container {
+  background-color: #162018;
+  padding: 11px 0;
+}
+
+.inner {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.text {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.search input {
+  font-family: FontAwesome, "Inter", sans-serif;
+  width: 542px;
+  border-bottom: 2px solid #2c402e;
+  padding: 8px;
+  color: #dae9dc;
+}
+
+.search input::placeholder {
+  color: #dae9dc;
+}
